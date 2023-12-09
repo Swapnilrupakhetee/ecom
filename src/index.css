@@ -54,7 +54,10 @@ body {
 }
 .button:hover{
   cursor: pointer;
-  transform: scale(1.05);
+  padding:0.7rem 1.4rem;
+  transform: scale(1.1);
+  
+  transition: all 0.3s ease-in;
 }
 @media(min-width:1536px){
   .innerWidth{
