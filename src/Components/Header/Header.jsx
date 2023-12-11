@@ -7,7 +7,7 @@ const Header = () => {
             <h1>LOGO</h1>
             <div className='flexCenter header-menu'>
                 <a href=''>Residencies</a>
-                <a href=''>Valu</a>
+                <a href=''>Value</a>
                 
                 <a href=''>Get Started</a>
                 <button className='button'><a href=''>Contact US</a></button>
