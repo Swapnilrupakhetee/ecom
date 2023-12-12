@@ -15,7 +15,7 @@ const Hero = () => {
 
           </div>
           <div className='flexColStart hero-description secondary-text'>
-            <span>Lorem ipsum, dolor sit amet consectetur voluptatu </span>
+            <span>Lorem ipsum dolor sit amet consectetur voluptatu </span>
             <span>quia, repellat deserunt laborum eaque</span>
           </div>
           <div className='flexCenter search-bar'>
