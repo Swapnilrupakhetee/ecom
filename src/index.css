@@ -40,6 +40,12 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.flexColStart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+}
 
 
 
@@ -58,6 +64,9 @@ body {
   transform: scale(1.1);
   
   transition: all 0.3s ease-in;
+}
+.secondary-text{
+  color: rgb(100, 100, 100);
 }
 @media(min-width:1536px){
   .innerWidth{
