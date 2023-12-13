@@ -1,5 +1,6 @@
 .company-container{
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3rem;
     
 }
 .company-container .logos{
