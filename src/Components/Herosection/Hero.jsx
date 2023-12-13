@@ -29,7 +29,7 @@ const Hero = () => {
               <span>
                 <CountUp start={1000}
                 end={1555}
-                duration={5}/>
+                duration={3}/>
                 <span>+</span>
               </span>
               <span className='secondary-text'>Property</span>
@@ -39,7 +39,7 @@ const Hero = () => {
                 <CountUp 
                 start={1}
                 end={155}
-                duration={5}
+                duration={3}
                 />
                 <span>+</span>
               </span>
@@ -49,7 +49,7 @@ const Hero = () => {
               <span>
                 <CountUp start={100}
                 end={450}
-                duration={5}/>
+                duration={3}/>
                 <span>+</span>
               </span>
               <span className='secondary-text'>Customers</span>
