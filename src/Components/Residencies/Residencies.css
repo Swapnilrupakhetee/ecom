@@ -1,3 +1,7 @@
+.r-container{
+    overflow: hidden;
+    position: relative;
+}
 .r-head{
     margin-bottom: 2rem;
     
@@ -6,7 +10,7 @@
 .r-card{
     border-radius: 10px;
     gap: 0.6rem;
-    
+    padding: 1rem;
     max-width: max-content;
     margin: auto;
     transition: all 0.3s ease-in-out;
@@ -29,10 +33,25 @@
     width: 15rem;
 
 }
-.r-card:hover{
-    scale: 1.025;
+.r-card:hover {
+    transform: scale(1.005);
     cursor: pointer;
-    background:linear-gradient((180deg,
-    rgba(255, 255, 255, 0)0%, rgba(136, 160, 255, 0.45)217%));
-    box-shadow: 0px 72px 49px -51px rgba(22, 22, 22, 0.671);
+    background: linear-gradient(180deg, rgba(63, 59, 59, 0.938) 0%, rgba(136, 160, 255, 0.89) 217%);
+    box-shadow: 0px 32px 40px -21px rgba(22, 22, 22, 0.671);
+}
+
+.r-button button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    color: rgb(49, 66, 71);
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.btn1:hover{
+    scale: 1.1;
+}
+.btn2:hover{
+    scale: 1.1;
 }
