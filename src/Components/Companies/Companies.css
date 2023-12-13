@@ -1,0 +1,8 @@
+.company-container{
+    justify-content: space-around;
+    
+}
+.company-container .logos{
+    font-size: 3rem;
+    opacity: 50%;
+}
