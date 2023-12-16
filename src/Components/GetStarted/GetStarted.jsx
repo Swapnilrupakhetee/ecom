@@ -10,7 +10,7 @@ export const GetStarted = () => {
                 <span className='secondaryText'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aut.<br/>
                 Lorem ipsum dolor sit amet.</span>
                 <button className='button'>
-                    
+                    <a href='mailto:rupakheteeswapnil@gmail.com'>Get Started</a>
                 </button>
                 
             </div>

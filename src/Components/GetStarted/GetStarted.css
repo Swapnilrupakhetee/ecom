@@ -1,3 +1,4 @@
+
 .inner-container{
     gap: 1.5rem;
     background: rgb(75, 110, 138);
@@ -5,6 +6,7 @@
     border-radius: 10px;
     border: 6pz solid rgb(89, 89, 134);
     text-align: center;
+    max-height: 14rem;
 }
 .inner-container .primaryText{
     color: white;
@@ -18,4 +20,21 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+}
+.inner-container .button{
+    background: rgba(144, 151, 153, 0.199);
+    border: 2px solid white;
+    box-shadow: 2px 2ps 4px rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+}
+.button:hover{
+    scale: none;
+    padding: none;
+
+}
+a{
+    text-decoration: none;
+    font-style: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
