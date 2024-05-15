@@ -9,11 +9,13 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: white;
+
    
 
 }
 .header-menu{
     gap:2rem;
+    display: flex;
 }
 .header-menu a{
     text-decoration: none;
@@ -33,7 +35,7 @@
         cursor: pointer;
     }
     .header-menu{
-        z-index: 1;
+        z-index: 11111;
         color: black;
         position: absolute;
         top: 4rem;
@@ -47,7 +49,7 @@
         align-items: flex-start;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
         transition: all 0.3s ease-in-out;
-        
+        display: flex;
     }
     .header-menu a{
         color: black;
@@ -59,3 +61,34 @@
     }
     
 }
+@media (min-width: 768px)
+{
+    .header-menu{
+        display: flex;
+    }
+}
+.header-menu {
+    display: flex; /* Initially hide the menu */
+  }
+  
+  @media (max-width: 768px) {
+    .header-menu.visible {
+      display: flex; /* Show the menu when the class is added */
+      z-index: 11111;
+      position: absolute;
+      top: 4rem;
+      right: 0;
+      background-color: white;
+      flex-direction: column;
+      font-weight: 500;
+      gap: 2rem;
+      padding: 3rem;
+      border-radius: 10px;
+      align-items: flex-start;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+      transition: all 0.3s ease-in-out;
+      overflow: hidden;
+    }
+  }
+  
+  
